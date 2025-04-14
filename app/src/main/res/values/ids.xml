@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="linearLayoutButtons" type="id" />
+    <item name="btnInDown" type="id" />
+    <item name="btnInUp" type="id" />
+    <item name="btnInLeft" type="id" />
+    <item name="btnInRight" type="id" />
+    <item name="btnOutDown" type="id" />
+    <item name="btnOutUp" type="id" />
+    <item name="btnOutLeft" type="id" />
+    <item name="btnOutRight" type="id" />
+    <item name="btnFadeIn" type="id" />
+    <item name="btnZoomIn" type="id" />
+    <item name="btnZoomOut" type="id" />
+    <item name="btnFlipInHorizontal" type="id" />
+    <item name="btnFlipOutHorizontal" type="id" />
+    <item name="btnFlipInVertical" type="id" />
+    <item name="btnFlipOutVertical" type="id" />
+    <item name="btnRotateIn" type="id" />
+    <item name="btnRotateOut" type="id" />
+    <item name="btnSlideDown" type="id" />
+    <item name="btnSlideUp" type="id" />
+    <item name="btnSlideLeft" type="id" />
+    <item name="btnSlideRight" type="id" />
+</resources>

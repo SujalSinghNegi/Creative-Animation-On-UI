@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <View
+
+        android:id="@+id/targetView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="10dp"
+        />
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Dummy target view for animation demonstration -->
+
+            <!-- IN Animations -->
+            <Button
+                android:id="@+id/btnInDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InDown Animation" />
+
+            <Button
+                android:id="@+id/btnInUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InUp Animation" />
+
+            <Button
+                android:id="@+id/btnInLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InLeft Animation" />
+
+            <Button
+                android:id="@+id/btnInRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="InRight Animation" />
+
+            <!-- OUT Animations -->
+            <Button
+                android:id="@+id/btnIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="btnIn" />
+
+            <Button
+                android:id="@+id/btnAttention"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="btnAttention" />
+
+            <Button
+                android:id="@+id/btnAttentionWobble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="btnAttentionWobble " />
+
+            <Button
+                android:id="@+id/btnAttentionShake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="btnAttentionShake" />
+
+            <!-- Bounce Animation -->
+            <Button
+                android:id="@+id/btnAttentionTada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="btnAttentionTada" />
+
+            <!-- Fade Animations -->
+            <Button
+                android:id="@+id/btnFadeIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FadeIn Animation" />
+
+            <Button
+                android:id="@+id/btnFadeOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FadeOut Animation" />
+
+            <!-- Zoom Animations -->
+            <Button
+                android:id="@+id/btnZoomIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZoomIn Animation" />
+
+            <Button
+                android:id="@+id/btnZoomOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZoomOut Animation" />
+
+            <!-- Flip Animations -->
+            <Button
+                android:id="@+id/btnFlipInHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlipInHorizontal Animation" />
+
+            <Button
+                android:id="@+id/btnFlipOutHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlipOutHorizontal Animation" />
+
+            <Button
+                android:id="@+id/btnFlipInVertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlipInVertical Animation" />
+
+            <Button
+                android:id="@+id/btnFlipOutVertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlipOutVertical Animation" />
+
+            <!-- Rotate Animations -->
+            <Button
+                android:id="@+id/btnRotateIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RotateIn Animation" />
+
+            <Button
+                android:id="@+id/btnRotateOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RotateOut Animation" />
+
+            <!-- Slide Animations -->
+            <Button
+                android:id="@+id/btnSlideDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SlideDown Animation" />
+
+            <Button
+                android:id="@+id/btnSlideUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SlideUp Animation" />
+
+            <Button
+                android:id="@+id/btnSlideLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SlideLeft Animation" />
+
+            <Button
+                android:id="@+id/btnSlideRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SlideRight Animation" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
